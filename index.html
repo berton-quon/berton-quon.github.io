@@ -5,12 +5,136 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Berton Quon | Software Development Student</title>
+    <link rel="stylesheet" href="portfolio_style.css">
 </head>
 
 <body>
-        <div>
-            <h1>Hello World</h1>
-        </div>
-</body>
 
+    <div class="heading">
+       <table class="bannertable">
+           <tr class="bannerbuttons">
+               <td><a href="#">Home</a></td>
+               <td><a href="#aboutme">About</a></td>
+               <td><a href="#competencies">Competencies</a></td>
+               <td><a href="#contact">Contact</a></td>
+               <td><a href="resume_portfolio.html">Resume</a></td>
+           </tr>
+       </table>
+    </div>
+
+
+    <div class="main">
+        <br><h1 class="intro" id="greet"></h1>
+
+        <div>
+            <h2>My name is</h2>
+            <h1>Berton Quon;</h1>
+            <h3>//Software Development Student</h3>
+        </div>
+        
+        <div class="sections">
+            <div class="line"></div>
+            <span id="aboutme"></span>
+            <h1 class="sectiontitles">About me</h1>
+        </div><br>
+
+        <div>
+            <table class="maintables">
+                <tr>
+                    <th class="text">
+                        Hello there.<br><br>
+                        
+                        My name is Berton. I am a software development student, currently studying at the Southern Alberta Institute of Technology, (SAIT) in Calgary, Alberta, Canada. <br><br>
+
+                        I come from a background of kinesiology, massage therapy, and athletic therapy.
+                        However, in recent months, I became interested in the impact that coding makes to our world. 
+                        This led me to learning how to program and hopefully I can help make an impact in the technological field, within the near future.<br><br>
+
+                        Thank you for visiting my page. I hope you enjoy your visit. Have a nice day.
+                    </th>
+                    <th><img id="portrait" src=images\20210930_BertonQuon_Portraits-12_CROPPED.jpg><br><p class="creds">Photography by <a href="http://www.jordonhon.com/">Jordon Hon</a></p></th>
+                </tr>
+            </table>
+        </div>
+
+        <div class="sections">
+            <div class="line"></div>
+            <span id="competencies"></span>
+            <h1 class="sectiontitles">Competencies</h1>
+        </div><br>
+
+        <div class="competencylist">
+            <table class="maintables">
+                <tr>
+                    <td>Java</td>
+                </tr>
+                <tr>
+                    <td>C#</td>
+                </tr>
+                <tr>
+                    <td class="skills">HTML</td>
+                </tr>
+                <tr>
+                    <td>CSS</td>
+                 </tr>
+                <tr>
+                    <td>Javascript</td>
+                </tr>
+                <tr>
+                    <td>MySQL</td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="sections">
+            <div class="line"></div>
+            <span id="contact"></span>
+            <h1 class="sectiontitles">Contact me</h1>
+        </div><br>
+
+        <div class="contactlist">
+                <table class="maintables">
+                    <tr>
+                        <td><a href="mailto:bertonquon@gmail.com"><img src="images\email_icon.png" width=40%></a></td>
+                        <td>bertonquon@gmail.com</td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://www.instagram.com/berton.quon/"><img src="images\instagram_icon.png" width=40%></a></td>
+                        <td>@berton.quon</td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://www.linkedin.com/in/berton-quon"><img src="images\linkedin_icon.png" width=40%></a></td>
+                        <td>www.linkedin.com/in/berton-quon</td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://github.com/berton-quon"><img src="images\github_icon.png" width=40%></a></td>
+                        <td>www.github.com/berton-quon</td>
+                    </tr>
+
+                </table>
+
+        </div>
+        <div class="end">
+            <p class="endmessage">Website created by Berton Quon;</p>
+        </div>
+    </div>
+
+</body>
+<script>
+    var current_date = new Date();
+    var hrs = current_date.getHours();
+
+    var greet;
+
+    if (hrs < 5)
+        greet = "Hello";
+    else if (hrs >= 5 && hrs < 12)
+        greet = 'Good morning;'
+    else if (hrs >= 12 && hrs < 17)
+        greet = 'Good afternoon;';
+    else if (hrs >= 17 && hrs <= 24)
+        greet = 'Good evening;';
+
+    document.getElementById('greet').innerHTML = greet;
+</script> 
 </html>
