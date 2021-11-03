@@ -94,6 +94,9 @@ a:hover{
 #work{
     padding-bottom: 25%;
 }
+.workinfo{
+    text-align: left;
+}
 #contact{
     padding-bottom: 25%;
 }
