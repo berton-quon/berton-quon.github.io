@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&display=swap');
+
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background: #19191a;
+    margin-top: -1%;
+    font-family: 'Space Mono', monospace;
+}
+.main{
+    margin-left: 25%;
+    margin-right: 25%;
+}
+h1{
+    color: #194d33;
+    font-size: 6vw;
+    line-height: 5%;
+}
+.heading{
+    padding-top: 2%;
+    padding-bottom: 1%; 
+    padding-right: 1%;
+    background: #252528;
+    opacity: 80%;
+    position: fixed;
+}
+.bannerbuttons{
+    margin: 1%;
+    font-size: 1vw;
+}
+.bannertable{
+    width: 40%;
+    margin-right: 0%;
+    margin-left: auto;
+}
+#greet{
+    padding-top: 15%;
+    font-size: 4vw;
+}
+h2{
+    color: lightgrey;
+    font-size: 2vw;
+    margin-top: 15%;
+}
+h3{
+    color: darkgray;
+    font-size: 1vw;
+    padding-bottom: 40%;
+}
+.sectiontitles{
+    text-align: right;
+    font-size: 3vw;
+}
+.sections{
+    display: flex;
+    align-items: center;
+}
+.line{
+    flex: 1;
+    height: 2px;
+    background-color: darkgrey;
+    margin-right: 2%;
+}
+#portrait{
+    width: 75%;
+}
+th{
+    width: 20%;
+}
+td{
+    width: 1%;
+    text-align: center;
+}
+.text{
+    text-align: left;
+    padding: 5%;
+    font-weight: lighter;
+    font-size: 1vw;
+    line-height: 130%;
+}
+.creds{
+    font-weight: lighter;
+    font-size: 1vw;
+    line-height: 0%;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    color: #194d33;
+}
+#aboutme{
+    padding-bottom: 25%;
+}
+#competencies{
+    padding-bottom: 25%;
+}
+#contact{
+    padding-bottom: 25%;
+}
+.maintables{
+    font-family: 'Cormorant Garamond', serif;
+    color: lightgrey;
+    font-weight: lighter;
+    line-height: 130%;
+    margin-top: -5%;
+}
+.competencylist{
+    font-size: 2vw;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+.contactlist{
+    margin-left: 30%;
+    margin-right: 30%;
+    font-size: 1vw;
+}
+.end{
+    text-align: center;
+    padding-top: 10%;
+    margin-bottom: 5%;
+    color: lightgrey;
+}
