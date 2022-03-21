@@ -95,8 +95,11 @@ a:hover{
 #aboutme{
     padding-bottom: 25%;
 }
-#competencies{
+#projects{
     padding-bottom: 25%;
+}
+.projectinfo{
+    width: 50%;
 }
 #contact{
     padding-bottom: 25%;
@@ -108,10 +111,10 @@ a:hover{
     line-height: 130%;
     margin-top: -5%;
 }
-.competencylist{
-    font-size: 2vw;
-    margin-left: 25%;
-    margin-right: 25%;
+.projectlist{
+    font-size: 1vw;
+    margin-left: 2%;
+    margin-right: 2%;
 }
 .contactlist{
     margin-left: 30%;
