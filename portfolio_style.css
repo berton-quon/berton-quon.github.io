@@ -101,6 +101,9 @@ a:hover{
 .projectinfo{
     width: 50%;
 }
+.projecttitles{
+    font-weight: bold;
+}
 #contact{
     padding-bottom: 25%;
 }
