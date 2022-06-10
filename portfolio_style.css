@@ -161,19 +161,19 @@ a:hover{
         font-size: 7vw;
     }
     h3{
-
         font-size: 3vw;
         padding-bottom: 1%;
     }
     .sectiontitles{
         text-align: right;
         font-size: 8vw;
+        padding-top: 10%;
     }
     .line{
         flex: 1;
         height: 2px;
-        background-color: #99caf0;
         margin-right: 2%;
+        margin-top: 10%
     }
     #portrait{
         width: 100%;
@@ -188,12 +188,10 @@ a:hover{
     .text{
         text-align: left;
         padding: 5%;
-        font-weight: lighter;
         font-size: 4vw;
         line-height: 130%;
     }
     .creds{
-        font-weight: lighter;
         font-size: 3vw;
         line-height: 0%;
     }
@@ -208,9 +206,6 @@ a:hover{
     }
     .projectinfoR{
         width: 100%;
-    }
-    .projecttitles{
-        font-weight: bold;
     }
     #contact{
         padding-bottom: 15%;
