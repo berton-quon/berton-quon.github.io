@@ -18,6 +18,9 @@ h1{
     font-size: 6vw;
     line-height: 5%;
 }
+.name{
+    color: #99caf0
+}
 .heading{
     padding-top: 2%;
     padding-bottom: 1%; 
@@ -64,7 +67,9 @@ h3{
     margin-right: 2%;
 }
 #portrait{
-    width: 75%;
+    width: 50%;
+    margin: 5%;
+    float: left;
 }
 th{
     width: 20%;
@@ -129,5 +134,103 @@ a:hover{
     padding-top: 10%;
     margin-bottom: 5%;
     color: lightgrey;
-    font-size: 0.5vw;
+    font-size: 1vw;
+}
+
+@media only screen and (max-width: 850px){
+    .main{
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    h1{
+        font-size: 11vw;
+    }
+
+    .bannerbuttons{
+        margin: 1%;
+        font-size: 4vw;
+    }
+    #greet{
+        font-size: 6vw;
+    }
+    h2{
+        font-size: 7vw;
+    }
+    h3{
+
+        font-size: 3vw;
+        padding-bottom: 1%;
+    }
+    .sectiontitles{
+        text-align: right;
+        font-size: 8vw;
+    }
+    .line{
+        flex: 1;
+        height: 2px;
+        background-color: darkgrey;
+        margin-right: 2%;
+    }
+    #portrait{
+        width: 100%;
+    }
+    th{
+        width: 20%;
+    }
+    td{
+        width: 1%;
+        text-align: center;
+    }
+    .text{
+        text-align: left;
+        padding: 5%;
+        font-weight: lighter;
+        font-size: 4vw;
+        line-height: 130%;
+    }
+    .creds{
+        font-weight: lighter;
+        font-size: 3vw;
+        line-height: 0%;
+    }
+    a{
+        color: white;
+        text-decoration: none;
+    }
+    a:hover{
+        color: #194d33; 
+    }
+    #aboutme{
+        padding-bottom: 25%;
+    }
+    #projects{
+        padding-bottom: 25%;
+    }
+    .projectinfo{
+        width: 50%;
+    }
+    .projecttitles{
+        font-weight: bold;
+    }
+    #contact{
+        padding-bottom: 15%;
+    }
+    .maintables{
+        line-height: 130%;
+        margin-top: -5%;
+    }
+    .projectlist{
+        font-size: 4vw;
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+    .contactlist{
+        margin-left: 5%;
+        margin-right: 5%;
+        font-size: 4vw;
+    }
+    .end{
+        padding-top: 5%;
+        font-size: 3vw;
+    }
 }
