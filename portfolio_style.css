@@ -68,7 +68,7 @@ h3{
 }
 #portrait{
     width: 50%;
-    margin: 5%;
+    margin-right: 5%;
     float: left;
 }
 th{
@@ -103,8 +103,13 @@ a:hover{
 #projects{
     padding-bottom: 25%;
 }
-.projectinfo{
+.projectinfoL{
     width: 50%;
+    float: left;
+}
+.projectinfoR{
+    width: 50%;
+    float:right;
 }
 .projecttitles{
     font-weight: bold;
@@ -206,8 +211,11 @@ a:hover{
     #projects{
         padding-bottom: 25%;
     }
-    .projectinfo{
-        width: 50%;
+    .projectinfoL{
+        width: 100%;
+    }
+    .projectinfoR{
+        width: 100%;
     }
     .projecttitles{
         font-weight: bold;
