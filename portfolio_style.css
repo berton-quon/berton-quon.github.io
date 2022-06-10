@@ -63,7 +63,7 @@ h3{
 .line{
     flex: 1;
     height: 2px;
-    background-color: darkgrey;
+    background-color: #99caf0;
     margin-right: 2%;
 }
 #portrait{
@@ -95,7 +95,7 @@ a{
     text-decoration: none;
 }
 a:hover{
-    color: #194d33; 
+    color: #2fdb85; 
 }
 #aboutme{
     padding-bottom: 25%;
@@ -150,7 +150,6 @@ a:hover{
     h1{
         font-size: 11vw;
     }
-
     .bannerbuttons{
         margin: 1%;
         font-size: 4vw;
@@ -173,7 +172,7 @@ a:hover{
     .line{
         flex: 1;
         height: 2px;
-        background-color: darkgrey;
+        background-color: #99caf0;
         margin-right: 2%;
     }
     #portrait{
@@ -197,13 +196,6 @@ a:hover{
         font-weight: lighter;
         font-size: 3vw;
         line-height: 0%;
-    }
-    a{
-        color: white;
-        text-decoration: none;
-    }
-    a:hover{
-        color: #194d33; 
     }
     #aboutme{
         padding-bottom: 25%;
