@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tiro+Devanagari+Sanskrit&display=swap');
 
 html{
     scroll-behavior: smooth;
@@ -7,7 +6,8 @@ html{
 body{
     background: #19191a;
     margin-top: -1%;
-    font-family: 'Space Mono', monospace;
+    font-family: 'Tiro Devanagari Sanskrit', serif;
+
 }
 .main{
     margin-left: 15%;
@@ -78,6 +78,11 @@ td{
     width: 1%;
     text-align: center;
 }
+.information{
+    text-align: center;
+    color: white;
+    font-size: 2vw;
+}
 .text{
     text-align: left;
     padding: 5%;
@@ -97,10 +102,7 @@ a{
 a:hover{
     color: #2fdb85; 
 }
-#aboutme{
-    padding-bottom: 25%;
-}
-#projects{
+span{
     padding-bottom: 25%;
 }
 .projectinfoL{
@@ -121,11 +123,7 @@ a:hover{
     padding-top: 5%;
     padding-bottom: 5%;
 }
-#contact{
-    padding-bottom: 25%;
-}
 .maintables{
-    font-family: 'Cormorant Garamond', serif;
     color: lightgrey;
     font-weight: lighter;
     line-height: 130%;
@@ -136,10 +134,13 @@ a:hover{
     margin-left: 2%;
     margin-right: 2%;
 }
+#skills{
+    font-size: 3vw;
+}
 .contactlist{
-    margin-left: 30%;
-    margin-right: 30%;
-    font-size: 1vw;
+    margin-left: 20%;
+    margin-right: 20%;
+    font-size: 2vw;
 }
 .end{
     text-align: center;
@@ -208,6 +209,9 @@ a:hover{
     #projects{
         padding-bottom: 25%;
     }
+    .information{
+        font-size: 3vw;
+    }
     .projectinfoL{
         width: 100%;
     }
@@ -228,6 +232,9 @@ a:hover{
     .maintables{
         line-height: 130%;
         margin-top: -5%;
+    }
+    #skillstable{
+        font-size: 4vw;
     }
     .projectlist{
         font-size: 4vw;
