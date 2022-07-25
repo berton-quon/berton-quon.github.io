@@ -150,7 +150,7 @@ span{
     font-size: 1vw;
 }
 
-@media only screen and (max-width: 850px){
+@media only screen and (max-width: 1000px){
     .main{
         margin-left: 5%;
         margin-right: 5%;
