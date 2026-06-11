@@ -1,0 +1,13 @@
+{
+  "name": "berton-quon-portfolio",
+  "version": "1.0.0",
+  "description": "A personal portfolio website built with React, showcasing projects and experience.",
+  "private": true,
+  "scripts": {
+    "start": "npx http-server . -c-1 -o",
+    "build": "echo \"No build step needed for static site.\""
+  },
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
+}

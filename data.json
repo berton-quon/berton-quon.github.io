@@ -1,0 +1,53 @@
+{
+  "personal": {
+    "name": "Berton Quon",
+    "title": "Software Developer",
+    "location": "Edmonton, Alberta, Canada",
+    "bio": "Full-stack developer focused on creating clean, performant solutions. Passionate about modern web technologies and solving complex problems."
+    ,
+    "image": "avatar.jpg"
+  },
+  "projects": [
+    {
+      "id": 1,
+      "title": "Mahjong Game",
+      "category": "Web Development",
+      "description": "Web based Mahjong game built with JavaScript and React. It features a responsive design, smooth animations, and an intuitive user interface.",
+      "tech": ["JavaScript", "React", "Node.js"],
+      "links": {
+        "github": "https://github.com/berton-quon/mahjong-game"
+      }
+    },
+    {
+      "id": 2,
+      "title": "EventFull",
+      "category": "Full Stack",
+      "description": "Capstone project: a full stack project built with Java Spring Boot and React. It allows users to create and manage events, with features like user authentication, event creation, mobile ticket check in, and real-time updates.",
+      "tech": ["Java", "React", "Java Spring Boot", "JavaScript", "MongoDb", "React Native"],
+      "links": {
+        "github": "https://github.com/donoh5/TetradSound"
+      }
+    }
+  ],
+  "experience": [
+    {
+      "id": 1,
+      "company": "JANA Corporation",
+      "position": "Software Developer",
+      "period": "2021 - Present",
+      "description": "Led development of key features and mentored junior developers.",
+      "technologies": ["C#", "SQL", "TypeScript", "React", "Node.js"]
+    }
+  ],
+  "skills": {
+    "languages": ["C#", "Java","JavaScript", "TypeScript", "Python", "SQL"],
+    "backend": ["ASP.NET", "Node.js", "Express",  "REST APIs", "React Native"],
+    "frontend": ["React", "HTML/CSS", "Tailwind CSS", "Bootstrap"],
+    "tools": ["Git", "VS Code", "Azure", "Octopus Deploy", "Visual Studio", "ArcGis Pro", "Postman", "MongoDb"]
+  },
+  "social": {
+    "github": "https://github.com/berton-quon",
+    "linkedin": "https://www.linkedin.com/in/berton-quon/",
+    "email": "bertonquon@gmail.com"
+  }
+}
