@@ -36,14 +36,14 @@
       "position": "Software Developer",
       "period": "2021 - Present",
       "description": "Led development of key features and mentored junior developers.",
-      "technologies": ["C#", "SQL", "TypeScript", "React", "Node.js"]
+      "technologies": ["C#", ".NET", "ASP.NET", "SQL", "TypeScript", "React", "Node.js"]
     }
   ],
   "skills": {
     "languages": ["C#", "Java","JavaScript", "TypeScript", "Python", "SQL"],
     "backend": ["ASP.NET", "Node.js", "Express",  "REST APIs", "React Native"],
     "frontend": ["React", "HTML/CSS", "Tailwind CSS", "Bootstrap"],
-    "tools": ["Git", "VS Code", "Azure", "Octopus Deploy", "Visual Studio", "ArcGis Pro", "Postman", "MongoDb"]
+    "tools": ["Git", "Visual Studio", "VS Code", "Azure", "Octopus Deploy", "ArcGis Pro", "Postman", "MongoDb"]
   },
   "social": {
     "github": "https://github.com/berton-quon",
