@@ -70,17 +70,23 @@ function renderExperience() {
   const { experience } = portfolioData;
   const container = document.getElementById('experienceContainer');
   
-  container.innerHTML = experience.map(exp => `
-    <div class="experience-item">
-      <h3>${exp.position}</h3>
-      <p class="experience-company">${exp.company}</p>
-      <p class="experience-period">${exp.period}</p>
-      <p class="experience-description">${exp.description}</p>
-      <div class="experience-tech">
-        ${exp.technologies.map(tech => `<span class="tech-tag">${tech}</span>`).join('')}
+  container.innerHTML = experience.map(exp => {
+    const descriptionContent = Array.isArray(exp.description)
+      ? `<ul class="experience-description-list">${exp.description.map(item => `<li>${item}</li>`).join('')}</ul>`
+      : `<p class="experience-description">${exp.description}</p>`;
+
+    return `
+      <div class="experience-item">
+        <h3>${exp.position}</h3>
+        <p class="experience-company">${exp.company}</p>
+        <p class="experience-period">${exp.period}</p>
+        ${descriptionContent}
+        <div class="experience-tech">
+          ${exp.technologies.map(tech => `<span class="tech-tag">${tech}</span>`).join('')}
+        </div>
       </div>
-    </div>
-  `).join('');
+    `;
+  }).join('');
 }
 
 // Render skills

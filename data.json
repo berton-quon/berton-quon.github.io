@@ -3,10 +3,26 @@
     "name": "Berton Quon",
     "title": "Software Developer",
     "location": "Edmonton, Alberta, Canada",
-    "bio": "Full-stack developer focused on creating clean, performant solutions. Passionate about modern web technologies and solving complex problems."
+    "bio": "Full-stack developer focused on creating clean and valuable solutions. Passionate about modern web technologies and solving complex problems."
     ,
     "image": "avatar.jpg"
   },
+    "experience": [
+    {
+      "id": 1,
+      "company": "JANA Corporation",
+      "position": "Software Developer",
+      "period": "2023 - Present",
+      "description": [
+        "Contributed to the core functionalities of a multi-million dollar SaaS platform for gas pipeline integrity serving over 25 million households.",
+        "Automated data processing pipelines, reducing manual work and minimizing errors.",
+        "Led development of key features and mentored junior developers.",
+        "Collaborated with product and design teams to ship customer-facing improvements.",
+        "Improved application performance by identifying and resolving bottlenecks."
+      ],
+      "technologies": ["C#", ".NET", "ASP.NET", "SQL", "TypeScript", "React", "Node.js"]
+    }
+  ],
   "projects": [
     {
       "id": 1,
@@ -27,16 +43,6 @@
       "links": {
         "github": "https://github.com/donoh5/TetradSound"
       }
-    }
-  ],
-  "experience": [
-    {
-      "id": 1,
-      "company": "JANA Corporation",
-      "position": "Software Developer",
-      "period": "2023 - Present",
-      "description": "Led development of key features and mentored junior developers.",
-      "technologies": ["C#", ".NET", "ASP.NET", "SQL", "TypeScript", "React", "Node.js"]
     }
   ],
   "skills": {
